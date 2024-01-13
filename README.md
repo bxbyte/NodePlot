@@ -1,4 +1,4 @@
-# NodePlot
+# [NodePlot](bxbyte.github.io/nodeplot/)
 
 A plot design tool based on nodes scripting.
 
@@ -6,6 +6,8 @@ A plot design tool based on nodes scripting.
 
 - [NodePlot](#nodeplot)
   - [Repositery Structure](#repositery-structure)
+    - [Directories](#directories)
+    - [Branches](#branches)
   - [Related repositeries](#related-repositeries)
 - [Changelog](#changelog)
 
@@ -13,9 +15,10 @@ This repositery contain pages of the NodePlot website: presentation, download, l
 
 ## Repositery Structure
 
+### Directories
+
 ```sh
 ./
-├── ...                     # Project / configuration files
 ├── webpack/                # Webpack configuration files
 │   └── ...
 ├── static/                 # Static files
@@ -30,20 +33,23 @@ This repositery contain pages of the NodePlot website: presentation, download, l
 │   │   └── ...
 │   └── scripts             # Typescript scripting files
 │       └── ...
-└── dist/                   # Generated files
-    └── ...
+└── ...                     # Project / configuration files
 ```
+
+### Branches
+
+While here is the [Main branche](https://github.com/bxbyte/nodeplot/tree/main), you can see the generated files from webpack on [Github Pages branche](https://github.com/bxbyte/nodeplot/tree/gh-pages).
 
 ## Related repositeries
 
 A part of the NodePlot website content also came from the below repositeries:
 
-- [The editor repositery](https://github.com/bxbyte/nodeplot-editor) :
-    - The online editor
-    - The documentation
-    - The manual
-- [The desktop repositery](https://github.com/bxbyte/nodeplot-desktop) : 
-    - The desktop editor (fork of the editor repo)
+- [nodeplot-editor](https://github.com/bxbyte/nodeplot-editor) :
+    - Online editor
+    - Documentation
+    - Manual
+- [nodeplot-desktop](https://github.com/bxbyte/nodeplot-desktop) : 
+    - Desktop editor (fork of the editor repo)
 
 # Changelog
 

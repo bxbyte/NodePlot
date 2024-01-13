@@ -2,7 +2,7 @@ import { resolve } from "path";
 
 const paths = {
     src: "../src",
-    dist: "../src",
+    dist: "../dist",
     static: "../static"
 };
 

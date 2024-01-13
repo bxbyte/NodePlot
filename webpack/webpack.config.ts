@@ -4,7 +4,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 export default {
     output: {
         path: paths.dist,
-        filename: "index_bundle.js"
+        // filename: "index_bundle.js"
     },
     module: {
         rules: [

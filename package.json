@@ -4,7 +4,7 @@
   "description": "A plot design tool based on nodes scripting.",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack serve --config ./webpack/webpack.dev.ts",
+    "dev": "webpack-dev-server --config ./webpack/webpack.dev.ts",
     "build": "webpack --config ./webpack/webpack.prod.ts",
     "pages": "git subtree push --prefix dist origin gh-pages"
   },
