@@ -15,7 +15,8 @@ This repositery contain pages of the NodePlot website: presentation, download, l
 
 ```sh
 ./
-├── build/                  # Webpack config files
+├── ...                     # Project / configuration files
+├── webpack/                # Webpack configuration files
 │   └── ...
 ├── static/                 # Static files
 │   └── ...
@@ -29,9 +30,8 @@ This repositery contain pages of the NodePlot website: presentation, download, l
 │   │   └── ...
 │   └── scripts             # Typescript scripting files
 │       └── ...
-├── dist/                   # Generated files
-│   └── ...
-└── ...                     # Repositery / project config files
+└── dist/                   # Generated files
+    └── ...
 ```
 
 ## Related repositeries

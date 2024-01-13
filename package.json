@@ -4,9 +4,9 @@
   "description": "A plot design tool based on nodes scripting.",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack serve --config build/webpack.dev.ts",
-    "build": "webpack --config build/webpack.prod.ts",
-    "pages": "git subtree push --prefix dist origin gh-pages"
+    "dev": "webpack serve --config ./webpack/webpack.dev.ts",
+    "build": "webpack --config ./webpack/webpack.prod.ts",
+    "pages": "git subtree push --prefix ./dist origin gh-pages"
   },
   "keywords": [
     "Plot",
@@ -15,10 +15,15 @@
     "Design",
     "Tool"
   ],
-  "author": "Bxbyte",
+  "author": "bxbyte",
+  "repository": {
+    "url": "https://github.com/bxbyte/nodeplot",
+    "type": "git"
+  },
   "license": "CC BY-NC 4.0",
   "dependencies": {
     "clean-webpack-plugin": "^4.0.0",
+    "commitizen": "^4.3.0",
     "html-webpack-plugin": "^5.6.0",
     "sass-loader": "^13.3.3",
     "ts-node": "^10.9.2",
@@ -30,7 +35,13 @@
     "@types/node": "^20.11.0",
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.2",
+    "cz-conventional-changelog": "^3.3.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
