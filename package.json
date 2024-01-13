@@ -1,0 +1,36 @@
+{
+  "name": "nodeplot",
+  "version": "1.0.0",
+  "description": "A plot design tool based on nodes scripting.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack serve --config build/webpack.dev.ts",
+    "build": "webpack --config build/webpack.prod.ts",
+    "pages": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [
+    "Plot",
+    "Chart",
+    "Node",
+    "Design",
+    "Tool"
+  ],
+  "author": "Bxbyte",
+  "license": "CC BY-NC 4.0",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "sass-loader": "^13.3.3",
+    "ts-node": "^10.9.2",
+    "typescript-loader": "^0.0.0",
+    "webpack": "^5.89.0",
+    "webpack-merge": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/webpack": "^5.28.5",
+    "@types/webpack-dev-server": "^4.7.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
